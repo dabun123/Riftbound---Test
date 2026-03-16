@@ -15681,39 +15681,34 @@
     "tokens": false,
     "_unreleased": false
   },
-  "UNL-2": {
+   "UNL-2": {
     "id": "UNL-2",
     "isToken": false,
     "face": {
       "front": {
-        "name": "",
+        "name": "Atakhan",
         "type": false,
         "cost": 0,
         "image": "https://piltoverarchive.b-cdn.net/cards/1773684744880-frnr4w0z9z4.png?width=1920",
         "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://cdna.artstation.com/p/assets/covers/images/086/657/690/large/alessandro-pizzi-alessandro-pizzi-atakhan-thumb1.jpg?1743716660",
-        "isHorizontal": false
       }
     },
     "name": "Atakhan",
-    "type": false,
-    "cost": 0,
-    "Domain": false,
-    "Set": false,
-    "tokens": false,
-    "_unreleased": false
-  },
+    "type": "Unit",
+    "cost": 10,
+    "Domain": [
+      "Order"
+    ],
+    "Set": [
+      "03 - Unleashed",
+  }
+},
   "UNL-3": {
     "id": "UNL-3",
     "isToken": false,
     "face": {
       "front": {
-        "name": "",
+        "name": "Mirror Image",
         "type": false,
         "cost": 0,
         "image": "https://piltoverarchive.b-cdn.net/cards/1773683403388-hn0ew0dhu6f.png?width=1920",
@@ -15721,11 +15716,34 @@
       }
     },
     "name": "Mirror Image ",
-    "type": false,
-    "cost": 0,
-    "Domain": false,
-    "Set": false,
-    "tokens": false,
-    "_unreleased": false
+    "type": "Spell",
+    "cost": 4,
+    "Domain": [
+      "Order"
+    ],
+    "Set": [
+      "03 - Unleashed",
   }
-}
+},
+  "OGN-006": {
+    "id": "OGN-006",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Flame Chompers",
+        "type": "Unit",
+        "cost": 3,
+        "image": "https://cdn.rgpub.io/public/live/map/riftbound/latest/OGN/cards/OGN-006/full-desktop-2x.avif",
+        "isHorizontal": false
+      }
+    },
+    "name": "Flame Chompers",
+    "type": "Unit",
+    "cost": 3,
+    "Domain": [
+      "🔴 Fury"
+    ],
+    "Set": [
+      "01 - Origins"
+    ]
+  },
